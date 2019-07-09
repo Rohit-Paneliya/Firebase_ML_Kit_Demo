@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "989600303621",
+    "firebase_url": "https://ml-kit-demo-a1573.firebaseio.com",
+    "project_id": "ml-kit-demo-a1573",
+    "storage_bucket": "ml-kit-demo-a1573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989600303621:android:fe82917481474632",
+        "android_client_info": {
+          "package_name": "com.josh.firebasemlkitdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989600303621-02jl6t941r70rr9ha292vgb4mrd1so9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtkJQL-b3qIqYKzeuuiY5N1g-CMlN2xuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989600303621-02jl6t941r70rr9ha292vgb4mrd1so9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
