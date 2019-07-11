@@ -53,6 +53,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_image_labeling -> {
                 startActivity(Intent(this@MainActivity, ImageLabelingActivity::class.java))
             }
+
+            R.id.nav_lang_translation -> {
+                startActivity(Intent(this@MainActivity, LanguageTranslationActivity::class.java))
+            }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)

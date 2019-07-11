@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:context=".activities.LanguageTranslationActivity">
+
+    <EditText android:layout_width="match_parent"
+              android:id="@+id/editTextSourceText"
+              android:hint="Enter text"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_marginTop="@dimen/activity_horizontal_margin"
+              android:layout_below="@id/editTextSourceText"
+              android:id="@+id/textViewTranslatedText"
+              android:layout_height="wrap_content"/>
+
+    <Button android:layout_width="match_parent"
+            android:text="Translate"
+            android:id="@+id/buttonTranslate"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_below="@id/textViewTranslatedText"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

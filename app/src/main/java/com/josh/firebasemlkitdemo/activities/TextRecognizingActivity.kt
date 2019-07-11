@@ -26,6 +26,8 @@ class TextRecognizingActivity : AppCompatActivity(), EasyPermissions.PermissionC
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_text_recognizing_acivity)
 
+        //TODO UI improvement and image rotation functionality
+
         buttonAddImage.setOnClickListener {
             selectImage()
         }

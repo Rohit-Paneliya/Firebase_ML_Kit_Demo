@@ -39,9 +39,12 @@ dependencies {
 
     implementation 'pub.devrel:easypermissions:2.0.1' // For Runtime permissions
     //Firebase
-    implementation 'com.google.firebase:firebase-core:16.0.9'
-    implementation 'com.google.firebase:firebase-ml-vision:21.0.0'
-    implementation 'com.google.firebase:firebase-ml-vision-image-label-model:18.0.0'
+    implementation 'com.google.firebase:firebase-core:17.0.0'
+    implementation 'com.google.firebase:firebase-ml-vision:21.0.0' // Text Recognization
+    implementation 'com.google.firebase:firebase-ml-vision-image-label-model:18.0.0' // Image labeling
+    //Translation
+    implementation 'com.google.firebase:firebase-ml-natural-language:20.0.0'
+    implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:20.0.0'
 
 
 }
